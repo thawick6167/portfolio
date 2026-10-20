@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tharindu Wickramaratne – Data Center Technician Portfolio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#eef1f2;--surface:#fff;--ink:#14232b;--muted:#4d6068;--line:#cfd8db;--aqua:#0b7f89;--yellow:#e8b800;--on-dark:#fff;--hero:#14232b;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1a20;--surface:#17262e;--ink:#e8eff1;--muted:#9fb2ba;--line:#2a3d46;--aqua:#4cc3cd;--hero:#091217}}
+:root[data-theme="dark"]{--bg:#0f1a20;--surface:#17262e;--ink:#e8eff1;--muted:#9fb2ba;--line:#2a3d46;--aqua:#4cc3cd;--hero:#091217}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.6 "Public Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Archivo",system-ui,sans-serif;line-height:1.15;margin:0}
+a{color:var(--aqua)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header.hero{background:var(--hero);color:var(--on-dark);padding:56px 0 40px;border-bottom:6px solid var(--yellow)}
+.hero h1{font-size:clamp(2.2rem,6vw,3.8rem);font-weight:800;letter-spacing:-.02em}
+.hero .role{font-size:1.15rem;margin:10px 0 18px;color:#c9d7dc;max-width:60ch}
+.hero .contact{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:.95rem}
+.hero .contact a{color:#fff}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:30px}
+.stat{border-left:3px solid var(--yellow);padding:2px 0 2px 12px}
+.stat b{display:block;font:800 1.5rem "Archivo",sans-serif}
+.stat span{color:#c9d7dc;font-size:.88rem}
+section{padding:44px 0 8px}
+h2{font-size:1.7rem;font-weight:800;margin-bottom:6px}
+.lead{color:var(--muted);margin:0 0 22px;max-width:70ch}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px 18px}
+.card h3{font-size:1.02rem;margin-bottom:6px;color:var(--aqua)}
+.card p,.card ul{margin:0;font-size:.95rem}
+.card ul{padding-left:18px}
+.job{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--aqua);border-radius:6px;padding:16px 20px;margin-bottom:14px}
+.job header{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 16px;margin-bottom:6px}
+.job h3{font-size:1.1rem}
+.job .when{color:var(--muted);font-size:.9rem}
+.job .org{color:var(--muted);font-size:.93rem;margin-bottom:6px}
+.job ul{margin:0;padding-left:18px;font-size:.95rem}
+.job li{margin:3px 0}
+.job.minor{border-left-color:var(--yellow)}
+.duty{margin-bottom:34px}
+.duty h3{font-size:1.2rem;padding-bottom:6px;border-bottom:2px solid var(--yellow);display:inline-block}
+.duty p{color:var(--muted);margin:8px 0 12px;font-size:.95rem;max-width:70ch}
+.photos{columns:3 220px;column-gap:12px}
+.photos figure{margin:0 0 12px;break-inside:avoid}
+.photos img{width:100%;height:auto;border-radius:4px;display:block;background:var(--line);cursor:zoom-in}
+dialog#lb{border:0;padding:0;background:transparent;max-width:96vw;max-height:96vh}
+dialog#lb img{max-width:96vw;max-height:92vh;display:block;border-radius:4px}
+dialog#lb::backdrop{background:rgba(0,0,0,.82)}
+.photos figcaption{font-size:.82rem;color:var(--muted);padding-top:4px}
+.slot{aspect-ratio:4/3;border:2px dashed var(--line);border-radius:4px;display:flex;align-items:center;justify-content:center;text-align:center;padding:10px;color:var(--muted);font-size:.85rem}
+.tags{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:0;list-style:none}
+.tags li{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:4px 14px;font-size:.9rem}
+footer{margin-top:40px;padding:26px 0 34px;border-top:1px solid var(--line);color:var(--muted);font-size:.92rem}
+@media (max-width:520px){header.hero{padding-top:40px}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<h1>Tharindu Wickramaratne</h1>
+<p class="role">Data Center Technician with live hyperscale experience at Microsoft GVX 12 in Sandviken, built on 8 years as a Telecommunication Technical Officer. Fiber and copper cabling, rack installation, testing and documentation, plus hardware and software troubleshooting.</p>
+<div class="contact"><span>Örebro, Sweden</span><a href="tel:+46764433947">+46 764 433 947</a><a href="mailto:thawick@gmail.com">thawick@gmail.com</a><a href="https://www.linkedin.com/in/thawick/">LinkedIn</a></div>
+<div class="stats">
+<div class="stat"><b>10+ years</b><span>technical and supervisory work</span></div>
+<div class="stat"><b>8+ years</b><span>Telecom Technical Officer, Luminex PLC</span></div>
+<div class="stat"><b>5 sites</b><span>data center projects in Sweden, Norway, Denmark</span></div>
+<div class="stat"><b>MEWP + Forklift</b><span>licensed operator</span></div>
+</div>
+</div></header>
+
+<main class="wrap">
+
+<section>
+<h2>What I bring</h2>
+<div class="grid">
+<div class="card"><h3>Live hyperscale experience</h3><p>Working on active Microsoft data center builds and capacity expansions in Sweden, to method statements and technical drawings.</p></div>
+<div class="card"><h3>Fiber specialist</h3><p>Eight years of splicing, patching and OTDR testing on backbone, FTTH and enterprise links, with test results recorded for handover.</p></div>
+<div class="card"><h3>Safe and audit-ready</h3><p>Access control, raised-floor and working-at-height safety, MEWP and forklift licences, labelling and as-built records done right the first time.</p></div>
+<div class="card"><h3>Leads and communicates</h3><p>Supervised a team of 4–6 technicians, managed inventory and QA, and coordinated with clients, vendors and project managers.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Skills</h2>
+<p class="lead">Hands-on infrastructure delivery, backed by a software and IT background that helps with fault finding, documentation and tooling.</p>
+<div class="grid">
+<div class="card"><h3>Cabling</h3><p>Cat6/Cat6A installation, termination, labelling. Single-mode and multimode fiber splicing and patching. Cable management and containment.</p></div>
+<div class="card"><h3>Testing and certification</h3><p>OTDR, optical power meter, light source, VFL, fiber identifier, Fluke copper certification, test reports.</p></div>
+<div class="card"><h3>Data center deployment</h3><p>Rack and stack of servers, switches and routers. Racks, cabinets, patch panels. Installation, upgrade, relocation and decommissioning.</p></div>
+<div class="card"><h3>Documentation</h3><p>Technical drawings (AutoCAD), cable schedules, method statements, as-built records, asset documentation.</p></div>
+<div class="card"><h3>Safety and access</h3><p>Data center access control, PPE, raised-floor and working-at-height safety, daily site briefings.</p></div>
+<div class="card"><h3>Networking and troubleshooting</h3><p>TCP/IP, LAN/WAN, VLANs, switches and routers. Hardware and software fault diagnosis, OS and driver issues, remote IT support.</p></div>
+<div class="card"><h3>Software</h3><p>Programming in C++ and Java. Linux environments and command line. HTML, CSS and JavaScript web development.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Experience</h2>
+<p class="lead">From fiber backbone rollouts in Sri Lanka to hyperscale data center sites in Scandinavia.</p>
+
+<article class="job"><header><h3>Data Center Technician</h3><span class="when">Nov 2024 – Present</span></header>
+<div class="org">Diginext Scandinavia, Sweden. On site at Microsoft hyperscale data centers, including GVX 12 in Sandviken.</div>
+<ul>
+<li>Install, terminate, label and test Cat6 copper and fiber cabling for capacity expansions at hyperscale sites.</li>
+<li>Rack, stack and label inbound server and infrastructure equipment.</li>
+<li>Fiber patching and testing with accurate result records, reducing fault tickets on live deployments.</li>
+<li>Troubleshoot connectivity failures, signal loss, damaged cables and incorrect patching or labelling.</li>
+<li>Enforce 24/7 raised-floor safety and access-control procedures, and run daily safety briefings.</li>
+</ul></article>
+
+<article class="job"><header><h3>Telecommunication Technical Officer, Grade II</h3><span class="when">Aug 2019 – Jul 2024</span></header>
+<div class="org">Luminex PLC, Maharagama, Sri Lanka</div>
+<ul>
+<li>Supervised a field team of 4–6 and ran day-to-day operations of the Maharagama branch.</li>
+<li>Led delivery of backbone fiber and Dialog Axiata projects: DP installation, splicing, patching, OTDR testing and underground rollouts.</li>
+<li>Carried out FTTH and enterprise site surveys and installations, and kept AutoCAD drawings current (Kadawatha, Embilipitiya, Mt. Lavinia).</li>
+<li>Managed project inventory, quality checks, labelling standards and PMS/IMS tracking for audit readiness.</li>
+<li>Provided hardware and software IT support for the Metro and Maharagama branches.</li>
+</ul></article>
+
+<article class="job"><header><h3>Telecommunication Technical Officer, Grade III</h3><span class="when">Aug 2016 – Jul 2019</span></header>
+<div class="org">Luminex PLC, Maharagama, Sri Lanka</div>
+<ul>
+<li>Supervised FTTH and enterprise fiber installations, site surveys and fusion splicing.</li>
+<li>Diagnosed network outages and replaced faulty components quickly to protect corporate client SLAs.</li>
+</ul></article>
+
+<article class="job minor"><header><h3>Web Developer and IT Support Specialist (part-time, remote)</h3><span class="when">Jan 2022 – Dec 2023</span></header>
+<div class="org">FlexyCode</div>
+<ul>
+<li>Provided remote IT support for users and small teams: diagnosed hardware faults, operating system and software problems, and network or connectivity issues, and documented the fix.</li>
+<li>Installed, configured and updated software and operating systems, and handled user account, access and device setup requests.</li>
+<li>Built and maintained responsive web applications using HTML, CSS and JavaScript, fixing bugs and adding features as the project required.</li>
+<li>Worked with the team on task planning and handovers, and communicated technical issues clearly to non-technical people.</li>
+<li>Worked part-time and remotely alongside my full-time role at Luminex PLC.</li>
+</ul></article>
+
+<article class="job minor"><header><h3>Associate Software Engineer / Intern</h3><span class="when">Oct 2014 – Apr 2016</span></header>
+<div class="org">SLIIT / Software Projects</div>
+<ul>
+<li>Software design, testing, debugging and module implementation using C++, Java, HTML, Linux and collaborative development tools.</li>
+</ul></article>
+</section>
+
+<section>
+<h2>Field work gallery</h2>
+<p class="lead">Photos from my Luminex PLC projects in Sri Lanka, grouped by the work I performed. Select a photo to enlarge it.</p>
+<div class="duty"><h3>Fiber splicing</h3><p>Fusion splicing on site, from roadside FTTH points to fibers loaded in the splicer.</p>
+<div class="photos"><figure><img src="images/splicing-roadside-mt-lavinia.jpg" alt="Fusion splicing on site, Mount Lavinia" loading="lazy"><figcaption>Fusion splicing on site, Mount Lavinia</figcaption></figure><figure><img src="images/splicer-fibers-loaded.jpg" alt="Fusion splicer with fibers loaded for splicing" loading="lazy"><figcaption>Fusion splicer with fibers loaded for splicing</figcaption></figure></div></div>
+<div class="duty"><h3>Fiber distribution frames and cabinets</h3><p>ODF and outdoor cabinet work: splice trays, patching, labelling and cable management.</p>
+<div class="photos"><figure><img src="images/fiber-cabinet-fdp.jpg" alt="Outdoor fiber distribution cabinet with splice trays and labelled patch cords" loading="lazy"><figcaption>Outdoor fiber distribution cabinet with splice trays and labelled patch cords</figcaption></figure><figure><img src="images/fiber-cabinet-earth-test.jpg" alt="Outdoor fiber cabinet with an earth resistance test in progress" loading="lazy"><figcaption>Outdoor fiber cabinet with an earth resistance test in progress</figcaption></figure><figure><img src="images/odf-patch-cords.jpg" alt="ODF with labelled patch cords and cable management" loading="lazy"><figcaption>ODF with labelled patch cords and cable management</figcaption></figure><figure><img src="images/at-odf-frame.jpg" alt="At a fiber distribution frame (ODF)" loading="lazy"><figcaption>At a fiber distribution frame (ODF)</figcaption></figure></div></div>
+<div class="duty"><h3>OTDR testing</h3><p>Link testing with an OTDR to verify fiber and record results.</p>
+<div class="photos"><figure><img src="images/otdr-anritsu.jpg" alt="Anritsu OTDR connected for link testing" loading="lazy"><figcaption>Anritsu OTDR connected for link testing</figcaption></figure></div></div>
+<div class="duty"><h3>Mobile network sites</h3><p>Labelled fiber patching to radio equipment, and work at tower sites.</p>
+<div class="photos"><figure><img src="images/patch-panel-kadawatha.jpg" alt="Labelled fiber patching to radio equipment, Kadawatha" loading="lazy"><figcaption>Labelled fiber patching to radio equipment, Kadawatha</figcaption></figure><figure><img src="images/mobile-tower-site.jpg" alt="On site at a mobile network tower" loading="lazy"><figcaption>On site at a mobile network tower</figcaption></figure></div></div>
+</section>
+
+<section>
+<h2>Data center projects</h2>
+<p class="lead">Sites I have worked on across Sweden, Norway and Denmark.</p>
+<div class="grid">
+<div class="card"><h3>Microsoft GVX 12</h3><p>Sandviken, Sweden. Hyperscale build and capacity expansion: Cat6 and fiber cabling, rack and stack, labelling and testing to method statements.</p></div>
+<div class="card"><h3>Eco Data Center (C)</h3><p>Falun, Sweden. Structured cabling, rack and patch panel installation, and test records for handover.</p></div>
+<div class="card"><h3>Eco Data Center (D)</h3><p>Falun, Sweden. Cabling, rack installation and cable management for a further phase of the campus.</p></div>
+<div class="card"><h3>Bulk Data Center</h3><p>Kristiansand, Norway. Fiber and copper cabling, equipment installation and documentation.</p></div>
+<div class="card"><h3>atNorth Data Center</h3><p>Skovlunde, Denmark. Cabling, rack installation and testing to technical drawings.</p></div>
+</div>
+<ul class="tags" hidden>
+<li>Microsoft GVX 12, Sandviken, Sweden</li>
+<li>Eco Data Center (C), Falun, Sweden</li>
+<li>Eco Data Center (D), Falun, Sweden</li>
+<li>Bulk Data Center, Kristiansand, Norway</li>
+<li>atNorth Data Center, Skovlunde, Denmark</li>
+</ul>
+</section>
+
+<section>
+<h2>Tools, certifications and education</h2>
+<div class="grid">
+<div class="card"><h3>Tools and equipment</h3><ul><li>OTDR, power meter, light source, fiber identifier</li><li>Fusion splicers (Fitel, Anritsu), Fluke certifier</li><li>Punch-down and crimping tools, torque wrenches</li><li>AutoCAD, rack diagrams, label printers</li></ul></div>
+<div class="card"><h3>Licences and training</h3><ul><li>Forklift licence (A1–A4, B1–B4, D1)</li><li>MEWP licence (3A, 3B-IPAF) and MEWP spotter</li><li>Data Center Infrastructure Safety</li><li>Ladder safety, basic electrical and site safety</li></ul></div>
+<div class="card"><h3>Courses and education</h3><ul><li>Cisco Certified Support Technician (CCST) Networking</li><li>Data center design, operation, power and electrical (Udemy)</li><li>Structured cabling and telecom networking (Udemy)</li><li>BSc Information Technology, SLIIT, 2010–2014</li></ul></div>
+</div>
+</section>
+
+</main>
+
+<footer><div class="wrap">Languages: English, Sinhala, basic Swedish. References on request.</div></footer>
+<dialog id="lb"><img alt=""></dialog>
+<script>(function(){var d=document.getElementById("lb"),i=d.querySelector("img");document.querySelectorAll(".photos img").forEach(function(p){p.addEventListener("click",function(){i.src=p.src;i.alt=p.alt;d.showModal();});});d.addEventListener("click",function(){d.close();});})();</script>
+</body>
+</html>
